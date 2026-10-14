@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Raw / processed operational data (add only if authorized)
+data/*.csv
+data/*.xlsx
+*.csv
+
+# Generated models and outputs
+*.pkl
+*.joblib
+*.model
+*.txt.tmp
+outputs/*
+!outputs/README.md
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
